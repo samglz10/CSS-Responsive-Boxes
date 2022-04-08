@@ -1,3 +1,33 @@
 body {
   background: blanchedalmond;
 }
+.container {
+  display:flex;
+  flex-grow:1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: stretch;
+  color: ghostwhite;
+  text-align: center;
+
+}
+body {
+  flex-grow: 1;
+  background-color: black;
+
+}
+
+.a {
+  flex-grow: 1;
+  background-color: aqua;
+}
+.b {
+  flex-grow: 1;
+  background-color: rgb(47, 95, 255);
+}
+.c {
+  flex-grow: 1;
+  background-color: rgb(183, 0, 255);
+}
+
+

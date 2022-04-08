@@ -1,3 +1,38 @@
 body {
-  background: peachpuff;
+  background: peachpuff;  
+}
+.container > * {
+background-color: aqua;
+margin: 0.5rem;
+border: 5px solid greenyellow;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #e3ed58;
+  border: 5px solid black;
+  height: 95vh;
+
+}
+
+.wrapper {
+  display:flex;
+  padding: 0%;
+  min-width: 100vh%;
+  margin: 20px;
+  border: 5px solid red;
+}
+
+.wrapper2 {
+  display: flex;
+}
+
+.a {
+  display: inline-block;
+  border: 5px #9f54fa solid;
+  width:100%;
+  padding:100 px;
+
 }
